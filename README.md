@@ -3,7 +3,7 @@ Ok Documentation
 
 OK helps instructors run better programming projects by running tests, tracking student progress, and enabling automatic grading.
 
-> <img src="logo.svg" height="100px" />
+> <img src="https://okpy.github.io/documentation/logo.svg" height="100px" />
 
 Contact us to use our hosted service (http://okpy.org) for your course.
 
