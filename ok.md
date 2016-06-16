@@ -73,14 +73,14 @@ The Server Side Autograder executes your grading code in a sandboxed container o
 
 The autograder supports <b>any language or grading setup</b> that can run in a virtual machine.
 
-> [API Documentation >](autograder-docs)
+> [API Documentation >][autograder-docs]
 
 * Provide feedback to students without distributing the contents of the tests with your project.
 * Quickly grade assignments in OK Server
 * Grade code not submitted through OK through the API
 
 The autograder provides optional email notification and a cooldown period for autograder results.
-> [View Examples >](autograder-docs)
+> [View Examples >][autograder-docs]
 
 You can request access by sending an email to sumukh@berkeley.edu with details about your use case.
 

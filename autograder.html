@@ -23,21 +23,34 @@
   <!-- Initializer -->
   <script>
     Flatdoc.run({
-      fetcher: Flatdoc.file([ 'https://cdn.rawgit.com/Cal-CS-61A-Staff/ok/master/README.md',
-                              'https://cdn.rawgit.com/Cal-CS-61A-Staff/ok/master/CONTRIBUTING.md',
-                              'https://cdn.rawgit.com/Cal-CS-61A-Staff/ok/master/SETUP.md',
-                              'https://cdn.rawgit.com/Cal-CS-61A-Staff/ok/master/documentation/dokku.md',
-                              'style-guide.md',
-                            ])
+      fetcher: Flatdoc.file(['autograder.md'])
     });
   $(document).on('flatdoc:ready', function() {
     // remove some section
-    $("#table-of-contents-contributors").remove();
-    $("#table-of-contents").remove();
   });
 
   </script>
   <style>
+
+    .content p {
+      padding: 5px 0;
+    }
+    @media (min-width: 1180px) {
+      blockquote blockquote {
+        height: 0px;
+      }
+      blockquote ul {
+        height: 0px;
+      }
+      blockquote p {
+        height: 0px;
+      }
+    }
+    @media (max-width: 768px) {
+      .hide {
+        display: none;
+      }
+    }
     </style>
 </head>
 <body role='flatdoc'>
@@ -65,6 +78,7 @@
         <a class='big button' href='index.html' target='_blank'>
           OK Docs
         </a>
+
       </div>
       <div class='menu section' role='flatdoc-menu'></div>
 
