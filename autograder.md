@@ -223,3 +223,7 @@ The autograder will only attempt to POST once. It may retry if the request fails
 # OK Integration
 
 The OK Server uses the autograder to grade assignments. If you are using the OK server, the API has already been integrated into the server. The OK integration uses private API methods to work. Those methods are not detailed here.
+
+# Custom Integrations
+
+It may be possible to integrate the autograder into your existing course workflow for submission (Git, Email, Upload etc). Contact us to get information.
