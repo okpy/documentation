@@ -54,6 +54,8 @@ The [OK Client](https://github.com/Cal-CS-61A-Staff/ok-client) allows students t
 
 > [Documentation >](https://github.com/Cal-CS-61A-Staff/ok-client/wiki)
 
+> [Assignment Setup Info >](client.html)
+
 The OK Client supports a variety of languages, including [Python 3](python.org), SQL, Logic (Prolog dialect), Scheme - and more languages can be added.
 
 It currently requires Python 3 to be installed on the students computer. The client can be run without the use of the server if desired.

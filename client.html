@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Ok Documentation</title>
+
+  <!-- Flatdoc -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src='//cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/legacy.js'></script>
+  <script src='//cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/flatdoc.js'></script>
+
+  <!-- Flatdoc theme -->
+  <link  href='//cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/style.css' rel='stylesheet'>
+  <script src='//cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/script.js'></script>
+
+  <!-- Meta -->
+  <meta content="Ok" property="og:title">
+  <meta content="Ok makes programming projects better." name="description">
+
+  <!-- Initializer -->
+  <script>
+    Flatdoc.run({
+      fetcher: Flatdoc.file(['client.md'])
+    });
+  $(document).on('flatdoc:ready', function() {
+    // remove some section
+  });
+
+  </script>
+  <style>
+
+    .content p {
+      padding: 5px 0;
+    }
+    @media (min-width: 1180px) {
+      blockquote blockquote {
+        height: 0px;
+      }
+      blockquote ul {
+        height: 0px;
+      }
+      blockquote p {
+        height: 0px;
+      }
+    }
+    @media (max-width: 768px) {
+      .hide {
+        display: none;
+      }
+    }
+    </style>
+</head>
+<body role='flatdoc'>
+
+  <div class='header'>
+    <div class='left'>
+      <h1> <img src="logo.png"  height="20px" /> </h1>
+      <ul>
+        <li><a href='https://github.com/Cal-CS-61A-Staff/ok'>View on GitHub</a></li>
+        <li><a href='index.html'>Documention</a></li>
+        <li><a href='https://github.com/Cal-CS-61A-Staff/ok/issues'>Issues</a></li>
+      </ul>
+    </div>
+    <div class='right'>
+      <!-- GitHub buttons: see http://ghbtns.com -->
+
+      <iframe src="https://ghbtns.com/github-btn.html?user=Cal-CS-61A-Staff&amp;repo=ok&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+      <iframe src="https://ghbtns.com/github-btn.html?user=Cal-CS-61A-Staff&amp;repo=ok&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+    </div>
+  </div>
+
+  <div class='content-root'>
+    <div class='menubar'>
+      <div class='section'>
+        <a class='big button' href='index.html' target='_blank'>
+          OK Docs
+        </a>
+
+      </div>
+      <div class='menu section' role='flatdoc-menu'></div>
+
+      <div class='bottom section'>
+        <iframe src="https://ghbtns.com/github-btn.html?user=Cal-CS-61A-Staff&amp;repo=ok&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+        <br>
+
+        <iframe src="https://ghbtns.com/github-btn.html?user=okpy&type=follow&count=true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+        <br>
+        <iframe src="https://ghbtns.com/github-btn.html?user=Cal-CS-61A-Staff&type=follow&count=true" frameborder="0" scrolling="0" width="170" height="20"></iframe>
+        <br>
+        <a href='https://github.com/okpy/documentation' target='_blank'>Documentation Repository</a>
+      </div>
+    </div>
+    <div role='flatdoc-content' class='content'></div>
+  </div>
+
+</body>
+</html>
