@@ -35,7 +35,7 @@ We'd be happy to help you decide if OK is a good fit. You can email us at ok@cs6
 The [OK Server](okpy) collects student submissions, displays students submissions, and provides a dashboard for instructors to control their assignments.
 > [GitHub Repo >][ok-server-github]
 
-> [API Docs >][ok-server-documentation] [Developer Docs >][ok-server-documentation]
+> [API Docs >][ok-api-documentation] [Developer Docs >][ok-server-documentation]
 
 [![Build Status](https://travis-ci.org/Cal-CS-61A-Staff/ok.svg)](https://travis-ci.org/Cal-CS-61A-Staff/ok) [![Coverage Status](https://coveralls.io/repos/github/Cal-CS-61A-Staff/ok/badge.svg?branch=master)](https://coveralls.io/github/Cal-CS-61A-Staff/ok?branch=master)
 
@@ -43,6 +43,7 @@ The [OK Server](okpy) collects student submissions, displays students submission
 
 [okpy]: http://okpy.org
 [ok-server-documentation]: ok-server.html
+[ok-api-documentation]: ok-api.html
 [ok-server-github]: https://github.com/Cal-CS-61A-Staff/ok
 
 ## Client
