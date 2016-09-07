@@ -37,6 +37,8 @@ The [OK Server](okpy) collects student submissions, displays students submission
 
 > [API Docs >][ok-api-documentation] [Developer Docs >][ok-server-documentation]
 
+> [OAuth2 Login Docs >][oauth-documentation]
+
 [![Build Status](https://travis-ci.org/Cal-CS-61A-Staff/ok.svg)](https://travis-ci.org/Cal-CS-61A-Staff/ok) [![Coverage Status](https://coveralls.io/repos/github/Cal-CS-61A-Staff/ok/badge.svg?branch=master)](https://coveralls.io/github/Cal-CS-61A-Staff/ok?branch=master)
 
 [View Okpy.org >][okpy]
@@ -44,6 +46,7 @@ The [OK Server](okpy) collects student submissions, displays students submission
 [okpy]: http://okpy.org
 [ok-server-documentation]: ok-server.html
 [ok-api-documentation]: ok-api.html
+[oauth-documentation]: oauth.html
 [ok-server-github]: https://github.com/Cal-CS-61A-Staff/ok
 
 ## Client
