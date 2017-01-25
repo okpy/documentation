@@ -224,6 +224,56 @@ The autograder will only attempt to POST once. It may retry if the request fails
 
 The OK Server uses the autograder to grade assignments. If you are using the OK server, the API has already been integrated into the server. The OK integration uses private API methods to work. Those methods are not detailed here.
 
+## CS61A Assignments
+
+The following instructions are useful if you are grading CS61A Assignments. If you are grading iPython Notebooks - there are separate instructions (not posted here)
+
+### Upload zip
+>><h4> Example Grading Script </h4>
+>>```
+mv lab00/* .;
+timeout 60 python3 ok --local --no-update --score --score-out results.txt;
+python3 parse_output.py results.txt lab 08/29/2016 --full-cutoff 1;
+rm -rf ./*
+```
+
+* Download zip:
+`curl http://cs61a.org/lab/lab00/lab00.zip > lab00.zip`
+`unzip lab00.zip`
+* Delete starter files (i.e. any files that OK submits)
+`rm lab00/lab00.py`
+* Put the grading script in (parse_output.py)
+`cp parse_output.py lab00/parse_output.py`
+
+* Edit the .ok file to add the "scoring" protocol: `vim lab00/lab00.ok`
+* Rezip it: `zip lab00-grading.zip -r lab00/`
+* Upload the zip to https://autograder.cs61a.org/admin/gradingfileadmin/
+Create assignment
+   * Go to https://autograder.cs61a.org/admin/assignment/ and create a new assignment
+   * Name: Lab 0
+   * Grading script: similar to the example above.
+    You need to tweak assignment type (lab/hw/quiz/proj) and due date
+    For lab and hw, `--full-cutoff` is the number of points needed for full credit.
+    Additionally, for hw, `--partial-cutoff` is the number of points needed for partial credit.
+* Zip file URL <secret>/lab00-grading.zip
+  * The URL convention should be clear from examples
+  * Replace filename with file name of what you uploaded.
+  * Do not check "EMAIL STUDENTS" - if you do emails will go out to students
+  * Submission wait time: 1 (second) - only useful if you have continuous auto grading enabled.
+
+
+### Autograde from OK
+* Click on an assignment on OK. Click "Autograde"
+* Copy-paste your OK access token. Use a fresh one so that it doesn’t expire while the assignment is being graded.
+* Copy-paste the assignment ID from the autograder (e.g. 57d1e....).
+* You don't have to enable "Backup Autopromotion". The most recent backups will be graded anyway if the student doesn't have a submission.
+* Hit "Queue on Autograder"
+
+### Monitor
+There isn't a good solution right now. Come back in half an hour and check the score export. For debugging issues, ping Sumukh.
+
+* The submissions tab shows that your assignments
+
 # Custom Integrations
 
 It may be possible to integrate the autograder into your existing course workflow for submission (Git, Email, Upload etc). Contact us to get information.
