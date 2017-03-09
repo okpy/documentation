@@ -10,7 +10,7 @@ Contact us to use our hosted service (http://okpy.org) for your course.
 The ok.py software was developed for [CS 61A at UC Berkeley](http://cs61a.org), a large in person introductory programming course (~800 to 1500 students/semester). Ok is currently used by multiple computer science courses.
 
 > <br>
-> [View CS 61A Course Material >](http://cs61a.org)
+> [OK Assignment Bank >](assignments.html)
 
 # Ok Software Suite
 The OK software suite is comprised of three parts: a server, a client, and the autograder.
@@ -23,13 +23,16 @@ In combination, the software suite makes running projects
 
 ## Use OK in your course
 
-If you are a computer science educator interested in evaluating OK for use in a course - please reach out to us.
+OK is _free_ to use for computer science educators and their students. You may either self host the server on your school infrastructure or use the hosted version of OK.
 
-You may either self host the server on your school infrastructure or use the hosted version of OK.
+You can sign up and evaluate how OK can help your course. As an instructor using OK, you get access to a [bank of assignments](assignments.html) that are ready to use in your course.
+
+> [Sign Up >](https://okpy.org/admin/course/new)
+
 
 We'd be happy to help you decide if OK is a good fit. You can email us at ok@cs61a.org or by clicking the "contact us" link.
 
-> [Contact Us! >](mailto://ok@cs61a.org?subject=Using%20OK%20in%20a%20course&cc=denero@berkeley.edu)
+> [Contact Us! >](mailto://cs61a@berkeley.edu?subject=Using%20OK%20in%20a%20course&cc=denero@berkeley.edu&bcc=sumukh@berkeley.edu)
 
 ##  Server
 The [OK Server](okpy) collects student submissions, displays students submissions, and provides a dashboard for instructors to control their assignments.
