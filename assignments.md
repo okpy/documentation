@@ -2,13 +2,21 @@ Assignment Bank
 =====
 There are assignments in a variety of langauges that are preconfigured to work with OK. They come bundled with OK tests. To enable submission, changing a few characters is all you need.
 
+> <h4>Scroll down to see the assignments </h4>
+
 ## License
 
 You are free to use these resources for a _noncommercial_ purpose. If you teach at an accredited higher ed school or K12 instutition - you may use these assignments in your course.
 
 # Enabling Submission
 
-Each assignment contains a file ending with `.ok` - the only thing that you need to change to enable submission the "endpoint" inside of the file. You can change it to your assignment endpoint on the OK Server and that's all it'll take to enable submission.
+> ```
+ { "name": "Project 1: Hog",
+  "endpoint": "cal/cs61a/sp17/hog",
+  ... }
+```
+
+Each assignment contains a file ending with `.ok` - the only thing that you need to change to enable submission the "endpoint" inside of the file. You can change it to your assignment endpoint on the OK Server and that's all it'll take to enable submission. For more details, view the ok server demo video.
 
 ## Using Standalone
 
@@ -25,7 +33,7 @@ It focuses on abstraction, recursion, and problem solving. The assignments are r
 | Category | Course               | Langauge | Name                         | Days    | Description                                                             | Link                                                            |
 |----------|----------------------|----------|------------------------------|---------|-------------------------------------------------------------------------|-----------------------------------------------------------------|
 | Project  | [CS 61A](http://cs61a.org) | Python   | Hog (Dice based game)        | 10 days | Dice based game using higher order functions and functional programming | [View >](https://inst.eecs.berkeley.edu/~cs61a/fa16/proj/hog/       )     |
-| Project  | [CS 61A](http://cs61a.org) | Python   | Hog Contest (Game Strategy)  | 10 days | Optional Game Strategy Contest                                          | [View >](https://inst.eecs.berkeley.edu/~cs61a/fa16/proj/hog_contest)/    |
+| Project  | [CS 61A](http://cs61a.org) | Python   | Hog Contest (Game Strategy)  | 10 days | Optional Game Strategy Contest                                          | [View >](https://inst.eecs.berkeley.edu/~cs61a/fa16/proj/hog_contest/)    |
 | Project  | [CS 61A](http://cs61a.org) | Python   | Yelp Maps (Machine Learning) | 10 days | Use a Yelp Dataset to recommend restaurants with lists and dictionaries | [View >](https://inst.eecs.berkeley.edu/~cs61a/fa16/proj/maps/      )     |
 | Project  | [CS 61A](http://cs61a.org) | Python   | Ants vs. Some Bees (Game)    | 11 days | Use OOP to build a Plants vs Zombies Game with great graphics           | [View >](https://inst.eecs.berkeley.edu/~cs61a/fa16/proj/ants/      )     |
 | Project  | [CS 61A](http://cs61a.org) | Python   | Scheme Interpreter           | 17 days | Build a Scheme Interpreter using recursion                              | [View >](https://inst.eecs.berkeley.edu/~cs61a/fa16/proj/scheme/    )     |
@@ -60,9 +68,16 @@ It focuses on abstraction, recursion, and problem solving. The assignments are r
 
 # Data Science Assignments
 
-## CS61A
+## Data 8
 
-| Category | Course               | Langauge | Name                         | Days    | Description                                                             | Link                                                            |
-|----------|----------------------|----------|------------------------------|---------|-------------------------------------------------------------------------|-----------------------------------------------------------------|
+The Foundations of Data Science. Inferential thinking, computational thinking, and real-world relevance.
 
+More details are available on the official course site [data8.org](http://data8.org)
 
+[Data 8 Course Materials >](https://github.com/data-8/data8assets/tree/gh-pages/materials/sp17)
+
+## Data 100
+
+Principles and Techniques of Data Science
+
+Materials [Data100 Materials](https://github.com/DS-100/sp17-materials)
