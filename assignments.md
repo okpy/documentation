@@ -10,7 +10,7 @@ You are free to use these resources for a _noncommercial_ purpose. If you teach 
 
 # Enabling Submission
 
-> ```
+> > ```
  { "name": "Project 1: Hog",
   "endpoint": "cal/cs61a/sp17/hog",
   ... }

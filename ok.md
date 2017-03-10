@@ -7,7 +7,7 @@ OK helps instructors run better programming projects by running tests, tracking 
 
 Contact us to use our hosted service (http://okpy.org) for your course.
 
-The ok.py software was developed for [CS 61A at UC Berkeley](http://cs61a.org), a large in person introductory programming course (~800 to 1500 students/semester). Ok is currently used by multiple computer science courses.
+The ok.py software was developed for [CS 61A at UC Berkeley](http://cs61a.org), a large in person introductory programming course (~800 to 1700 students/semester). Ok is currently used by multiple computer science courses at a variety of locations.
 
 > <br>
 > [OK Assignment Bank >](assignments.html)
