@@ -9,9 +9,9 @@ Jobs are submitted to the autograder using a REST API.
 
 ## Request Access
 
-If you are an computer science educator, you can request access by sending an email to sumukh@berkeley.edu with details about your use case.
+If you are an computer science educator, you can request access by sending an email to denero@berkeley.edu with details about your use case.
 
-> [Request Access >](mailto://sumukh@berkeley.edu?subject=OK%20Autograder)
+> [Request Access >](mailto://denero+ok@berkeley.edu?subject=OK%20Autograder)
 
 # Setup
 
