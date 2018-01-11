@@ -122,7 +122,7 @@ r = requests.post('https://autograder.cs61a.org/api/file/grade/continous',
 success = r.status_code == requests.codes.ok
 ```
 
-| Arugment    | Type    | Description |
+| Argument    | Type    | Description |
 |-------------|------------------------------|
 | assignment  | string:required | The ID of the assignment from the dashboard |
 | file_contents| dictionary:required |A dictionary that maps filename to the contents. |
@@ -139,7 +139,7 @@ If the arguments are invalid, the server will respond with a HTTP error and an e
 
 Otherwise the response will be a 200 with the following contents:
 
-| Arugment    | Type    | Description        |
+| Argument    | Type    | Description        |
 |-------------|------------------------------|
 | ok          | string  | The string "ok" if succesful   |
 
@@ -181,7 +181,7 @@ Point breakdown
 }
 ```
 
-| Arugment    | Type    | Description |
+| Argument    | Type    | Description |
 |-------------|------------------------------|
 | assignment  | string:required | The ID of the assignment from the dashboard |
 | file_contents| dictionary:required |A dictionary that maps filename to the contents. |
@@ -196,7 +196,7 @@ If the arguments are invalid, the server will respond with a HTTP error and an e
 
 Otherwise the response will be a 200 with the following contents:
 
-| Arugment    | Type    | Description        |
+| Argument    | Type    | Description        |
 |-------------|------------------------------|
 | ok          | string  | The string "ok" if succesful   |
 
