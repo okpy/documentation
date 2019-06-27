@@ -32,7 +32,7 @@ You can sign up and evaluate how OK can help your course. As an instructor using
 
 We'd be happy to help you decide if OK is a good fit. You can email us at ok@cs61a.org or by clicking the "contact us" link.
 
-> [Contact Us! >](mailto://cs61a@berkeley.edu?subject=Using%20OK%20in%20a%20course&cc=denero@berkeley.edu&bcc=sumukh@berkeley.edu)
+> [Contact Us! >](mailto:cs61a@berkeley.edu?subject=Using%20OK%20in%20a%20course&cc=denero@berkeley.edu&bcc=sumukh@berkeley.edu)
 
 ##  Server
 The [OK Server](okpy) collects student submissions, displays students submissions, and provides a dashboard for instructors to control their assignments.
@@ -93,7 +93,7 @@ The autograder provides optional email notification and a cooldown period for au
 
 You can request access by sending an email to sumukh@berkeley.edu with details about your use case.
 
-[Request Access >](mailto://sumukh@berkeley.edu?subject=OK%20Autograder)
+[Request Access >](mailto:sumukh@berkeley.edu?subject=OK%20Autograder)
 
 [autograder-docs]: autograder.html
 

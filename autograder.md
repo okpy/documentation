@@ -11,7 +11,7 @@ Jobs are submitted to the autograder using a REST API.
 
 If you are an computer science educator, you can request access by sending an email to denero@berkeley.edu with details about your use case.
 
-> [Request Access >](mailto://denero+ok@berkeley.edu?subject=OK%20Autograder)
+> [Request Access >](mailto:denero+ok@berkeley.edu?subject=OK%20Autograder)
 
 # Setup
 
