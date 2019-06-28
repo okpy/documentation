@@ -91,9 +91,9 @@ The autograder supports <b>any language or grading setup</b> that can run in a v
 The autograder provides optional email notification and a cooldown period for autograder results.
 > [View Examples >][autograder-docs]
 
-You can request access by sending an email to sumukh@berkeley.edu with details about your use case.
+You can request access by sending an email to denero@berkeley.edu with details about your use case.
 
-[Request Access >](mailto:sumukh@berkeley.edu?subject=OK%20Autograder)
+> [Request Access >](mailto:cs61a@berkeley.edu?subject=Using%20OK%20in%20a%20course&cc=denero@berkeley.edu&bcc=sumukh@berkeley.edu)
 
 [autograder-docs]: autograder.html
 
